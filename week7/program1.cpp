@@ -10,7 +10,6 @@ int main()
     string string1;
     cout << "Please enter a string to be reversed: ";
     getline(cin, string1);
-    reverse(string1);
     cout << "The reverse of your string is: " << reverse(string1);
 }
 string reverse(string *s1)
